@@ -1,0 +1,148 @@
+body{
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #f8e7d2;
+}
+
+header{
+background-color: #bf4d0b;  
+display: FLEX;    
+ padding: 20px;
+    
+}/*Зроби цей сайт красивим 😉*/
+
+
+
+
+.head{
+
+color: #ffa852;
+ align-items: center;     
+    
+}
+.sp{
+text-decoration: none;    
+color: #bf4d0b;    
+background-color: #ba7632;    
+border: 3px #613609 solid ;
+border-radius: 7px;
+padding: 5px;
+}
+.chncok{
+display: FLEX;    
+list-style: none;    
+gap: 15px;
+}
+.a{
+    display: FLEX;    
+    align-items: center;
+}
+.r{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0.7)), url("https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000031778/b4f05cb1ef19bd66365948199862ba5703d6d5c9dce182047e06a1ad2fe00919");
+    background-repeat: no-repeat;
+    height:500px ;
+    background-size: cover;
+    background-position: center;
+    display: FLEX;
+    color: #cf9b53;
+    justify-content: center;
+    align-items: flex-start;
+    
+}    
+
+
+    
+.section-title {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #3c8527;
+    text-transform: uppercase;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: #785c46;
+    width: 280px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #422e1e;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+}
+
+.card:hover {
+    border-color: #b87c4b;
+    background-color: #3b2b1e;
+    
+}    
+    
+
+
+/* Класи для елементів картки замість контекстних селекторів */
+.card-img {
+    height: 180px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.card-title {
+    color: #ffd700;
+    margin-top: 0;  
+}
+
+.card-desc {
+    font-size: 14px;
+    line-height: 1.5;
+   color: #ccc; 
+}   
+   footer{
+background: linear-gradient(0deg,rgba(224, 224, 184, 1) 0%, rgba(181, 130, 71, 1) 38%, rgba(118, 86, 44, 1) 58%, rgba(91, 67, 32, 1) 69%, rgba(15, 14, 0, 1) 85%);  
+display: flex;
+color: #f5c27a;
+flex-direction: column;   
+align-items: center;  
+border: 4px solid #b37542;
+margin-bottom: 40px;   
+padding: 10px;
+       
+   }
+.v{
+color: #e0853a;    
+    
+    
+    
+    
+}   
+.uu{
+ background: linear-gradient(135deg,#cf9251,#d1791b,#cf9251);
+    padding: 30px 15px;
+    margin-top: 50px;
+    text-align:center;
+    font-family: Arial, sans-serif;
+    border-top: 3px solid #e3b89f;
+    
+    
+    
+} 
+  
+.footer h2{
+    color:#7a4d35;
+    font-size:28px;
+    margin-bottom:10px;
+} 
+.sp:hover{
+color: #45280c;    
+    
+} 
+ 
+ 
+ 
+ 
